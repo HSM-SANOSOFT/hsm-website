@@ -1,0 +1,19 @@
+# deps and builds
+node_modules/
+.nuxt/
+.output/
+dist/
+.cache/
+# local only
+.env
+.env.*
+!.env.example
+.playwright/
+parity/screens/
+# WordPress extraction: backups, dumps and uploads never go to git
+extract/data/
+*.sql
+*.sql.gz
+*.tar.gz
+*.zip
+wp-content/
